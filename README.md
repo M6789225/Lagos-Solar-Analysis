@@ -1,10 +1,22 @@
-# Lagos-Solar-Analysis
-Objective: To analyze the potential for solar energy generation in Lagos by evaluating installable capacity, energy potential, and factors affecting feasibility.
+# Lagos Solar Potential Analysis
+This project analyzes rooftop solar potential in Lagos using a dataset of building characteristics. Key insights include:
+- Average energy potential across various building types.
+- Correlations between surface area, tilt, and energy potential.
+- Recommendations for optimal solar installation.
 
-cd path/to/lagos_solar_analysis
-git init
+## Visualizations
+- **Correlation Matrix**: Shows relationships between variables.
+- **Energy Potential by Building Type**: Highlights the most efficient types.
 
-git add .
+## Tools
+- Python: `pandas`, `matplotlib`
+- Data cleaning and visualization scripts are provided in `analysis.py`.
 
-git commit -m "Initial commit of Lagos solar analysis project"
+## Setup
+To replicate this project:
+1. Clone the repository.
+2. Install required libraries: `pip install pandas matplotlib`.
+3. Run `analysis.py`.
 
+## Author
+- Mutanu M.
